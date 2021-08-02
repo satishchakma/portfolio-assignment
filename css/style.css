@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+/*social icons*/
+.socials{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.socials li{
+    list-style: none;
+    flex: 1 0 auto;
+}
+.socials li a{
+    display: flex;
+    background: #f7dc4f;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.socials li a:hover{
+	color: white;
+}
+/*social icons*/
+
+.hero{}
+.h-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.h-text{
+    background: #015761;
+    flex-basis: 50%;
+    max-width: 50%;
+    position: relative;
+}
+.text-1{
+    padding: 30px 30px;
+}
+.text-1 h4{
+    color: #f7dc4f;
+}
+.text-1 ul{
+    display: flex;
+    list-style: none;
+}
+.text-1 ul li{
+    padding: 10px;
+}
+.text-1 ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease;
+}
+/*.text-1 ul:first-child li{
+    margin-left: 0 !important;
+}*/
+/*.text-1 ul li:first-child a{
+	padding-left: 0 !important;
+}*/
+.first-child{
+	padding-left: 0 !important;
+}
+.text-1 ul li a:hover {
+    color: #F7DC4F;
+}
+
+.text-2{
+    position: absolute;
+    right: 33%;
+    top: 37%;
+}
+.text-2 h3{
+    font-size: 26px;
+    color: #f7dc4f;
+    font-weight: 500;
+} 
+.text-2 h1{
+    color: white;
+    font-size: 55px;
+}
+.text-2 h1 span{
+    display: block;
+}
+.text-2 p{
+    color: white;
+}
+.h-img{
+    flex-basis: 50%;
+    max-width: 50%;
+    max-height: 599px;
+}
+.h-img img{
+    max-width: 100%;
+}
+/*about css*/
+.about{
+    /* margin: 0; */
+    background: #F1F0F0;
+}
+.about-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.about-content h2{
+    color: #015761;
+    font-size: 35px;
+}
+.about-content p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 0;
+    color: #282828;
+}
+.about-content button{
+    background: #f7dc4f;
+    min-width: 200px;
+    border: none;
+    min-height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .3s ease;
+    cursor: pointer;
+    color: #282828e8;
+}
+.about-content button:hover{
+	color: white;
+}
+
+
+/*about css ends*/
+/*show starts*/
+.show{}
+.show h2{
+	    color: #015761;
+	    font-size: 35px;
+	    margin: 40px auto;
+	    display: flex;
+	    justify-content: center;
+}
+/*show ends*/
+/*photos starts*/
+img{
+	position: center;
+	max-width: 100%;
+}
+.photos{}
+.photos h2{
+    color: #015761;
+    font-size: 35px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    /* flex-wrap: wrap; */
+    display: flex;
+}
+.col-3{
+    padding: 0 10px;
+}
+.one{
+    flex-basis: 30%;
+    max-width: 30%;
+}
+.two{
+    flex-basis: 35%;
+    max-width: 35%;
+}
+.three{
+    flex-basis: 35%;
+    max-width: 35%;
+}
+
+/*photos ends*/
